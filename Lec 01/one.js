@@ -1,8 +1,13 @@
-let age = 14;
+let mode = "purple";
+let color;
 
-if(age >= 18){
-    console.log("You can vote.");
+if(mode === "dark"){
+    color = "black";
 }
-else{
-    console.log("YOu CANNOT vote.");
+else if(mode === "light"){
+    color = "white";
+}else{
+    console.log("You're given mode color is not exits. Please enter given options.")
 }
+
+console.log(color);
