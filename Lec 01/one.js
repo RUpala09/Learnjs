@@ -1,13 +1,6 @@
-let mode = "purple";
-let color;
+//Ternary Operators
 
-if(mode === "dark"){
-    color = "black";
-}
-else if(mode === "light"){
-    color = "white";
-}else{
-    console.log("You're given mode color is not exits. Please enter given options.")
-}
+let age = 15;
 
-console.log(color);
+let result = age >= 18 ? "adult" : "Not adult";
+console.log(result);
