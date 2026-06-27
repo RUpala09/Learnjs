@@ -92,9 +92,41 @@
 // console.log("my",obj.itemName, "price is ",obj.price,"Rupess."); Simple and complex things as compared to template literals.
 // console.log ("hell\too");
 
-// -> Strings Method(Method meand Do some work)
+// -> Strings Methods (Method means Do some work)
 
 // let str = "raj upala";
-// str =  str.toUpperCase(); // make new string or also add thoses changes in old string. (In JS strings are immutable means it's not changable.) so if you do some changes so make new strings. old strings values never changed and its changed if we stroed it on same name.
+// // str =  str.toUpperCase(); // make new string or also add thoses changes in old string. (In JS strings are immutable means it's not changable.) so if you do some changes so make new strings. old strings values never changed and its changed if we stroed it on same name.
+// str =  str.toLowerCase();
 // console.log(str);
+
+// let str = "apnacollege through learn js";
+
+// console.log(str);
+// console.log(str.trim());
+
+// console.log(str.slice(1,5)); (used to take slice of the character.)
+
+
+// let str = "apnacollege through ";
+// let str2 =  "learn js";
+
+
+// console.log(str.concat(str2)); (Used for joint the strings.)
+
+// let str = "CodeWithHarry is good channel";
+
+// console.log(str);
+// str = (str.replace("CodeWithHarry","apnacollege")); (it's used to replace old value to new value.)
+// console.log(str);
+
+// let str = "IloveJs";
+
+// console.log(str.charAt(3)); (it's help to find what character extis at that position.)
+
+// let str = "raj";
+// str[0] = "a"; ( remember it's not working.)
+// str = (str.replace("r","a")); (this way we change it any character in str. )
+// console.log(str); 
+ 
+
 
