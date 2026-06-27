@@ -128,5 +128,10 @@
 // str = (str.replace("r","a")); (this way we change it any character in str. )
 // console.log(str); 
  
+// Qs1 
+let fullName = prompt("Enter your fullName :");
+let userName = "@" + fullName + fullName.length;
+console.log("userName = ",userName);
+
 
 
