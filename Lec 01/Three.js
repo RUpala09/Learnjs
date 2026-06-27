@@ -65,12 +65,29 @@
 
 //Qs2 make game and check until the user not correct the right no.
 
-let gameNum = 5;
+// let gameNum = 5;
 
-let guessNum = prompt("Guess any game no :");
+// let guessNum = prompt("Guess any game no :");
 
-while(guessNum != gameNum){
-    guessNum = prompt("you guess wrong no. Guess again");
-}
+// while(guessNum != gameNum){
+//     guessNum = prompt("you guess wrong no. Guess again");
+// }
 
-console.log("Congrates you guess right no.");
+// console.log("Congrates you guess right no.");
+
+//Learn Strings
+
+// let str = "Raj Upala";
+
+// -> Template Literals 
+
+// let obj = {
+//     itemName    : "Football",
+//     price       : 499,
+// };
+
+// let output = (`My ${obj.itemName} price is ${obj.price} Rupess.`);
+// console.log(output);  This is a way to write a Template literal... 
+
+// console.log("my",obj.itemName, "price is ",obj.price,"Rupess."); Simple and complex things as compared to template literals.
+// console.log ("hell\too");
