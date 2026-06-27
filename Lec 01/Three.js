@@ -91,3 +91,10 @@
 
 // console.log("my",obj.itemName, "price is ",obj.price,"Rupess."); Simple and complex things as compared to template literals.
 // console.log ("hell\too");
+
+// -> Strings Method(Method meand Do some work)
+
+// let str = "raj upala";
+// str =  str.toUpperCase(); // make new string or also add thoses changes in old string. (In JS strings are immutable means it's not changable.) so if you do some changes so make new strings. old strings values never changed and its changed if we stroed it on same name.
+// console.log(str);
+
