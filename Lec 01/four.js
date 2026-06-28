@@ -47,11 +47,19 @@
 
 // Qs 
 
-let price = [250,645,300,900,50];
+// let price = [250,645,300,900,50];
 
-for(let i=0; i<price.length; i++){
-    let offer = price[i] / 10;
-    price[i] -= offer;
-}
+// for(let i=0; i<price.length; i++){
+//     let offer = price[i] / 10;
+//     price[i] -= offer;
+// }
 
-console.log(`after appply price is ${price}`);
+// console.log(`after appply price is ${price}`);
+
+// => arrays Methods
+
+let marks = [15,12,16,18];
+console.log("before push marks is :",marks);
+
+console.log("marks is :",marks.push(16));
+console.log("after push marks is :",marks);
