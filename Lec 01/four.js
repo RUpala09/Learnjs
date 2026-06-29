@@ -58,8 +58,47 @@
 
 // => arrays Methods
 
-let marks = [15,12,16,18];
-console.log("before push marks is :",marks);
+// let foodItems = ["tomato","potato","apple"];  //(changes happens in original array.)
+// // foodItems.push("banana","berry"); using push we add items.    (push)
+// console.log(foodItems);
+// let deletedItems = foodItems.pop();          (pop)
+// console.log(foodItems);
+// console.log("Deleted items is : ",deletedItems);
 
-console.log("marks is :",marks.push(16));
-console.log("after push marks is :",marks);
+// console.log(foodItems.toString()); //(it's convert our array into string but it's not change the original stigs.)
+// console.log(foodItems);
+
+// let indianHeros = ["ajay devgan","amitabachan","akshaykumar","amir khan","sahrukhan"];
+// let southHeros = ["vijay thalapti","mahesh babu","ravi teja"];
+// let hollywoodHeros = ["tom cruse","piter"];
+
+// let heros = indianHeros.concat(southHeros,hollywoodHeros); //merge(concat) my multiple arrays.
+// console.log(heros);
+
+
+
+// let indianHeros = ["ajay devgan","amitabachan"];
+
+// indianHeros.unshift("prem chopra"); // add at starting index
+// let val = indianHeros.shift(); //remove at starting in index
+// console.log("deleted val :",val);
+
+
+// let indianHeros = ["ajay devgan","amitabachan","akshaykumar","amir khan","sahrukhan"];
+// console.log(indianHeros);
+
+// console.log(indianHeros.slice(1,3)); // it's gave us some silces in our arrays. (it's not change original arrays.)
+
+// let num = [1,2,3,4,5,6,7];
+
+// num.splice(2,3,101,102,103); // 2 is starting index , 3 means deleted doing in index 2,3,4 so in array -> 3,4,5 is deleted and 101,102,103 is added as a new element.
+// console.log(num);
+
+//add Element
+// num.splice(1,0,11,12);
+
+//remove Element 
+// num.splice(3,1);
+
+//replce Element
+// num.splice(4,1,55);
