@@ -7,6 +7,8 @@
 
 // myFunction(); // this way we call our function.
 
+// extra 
+
 // function myFun(msg){ // msg is my input and it's called as a parameters.
 //     console.log(msg);
 // }
@@ -43,3 +45,28 @@
 // const printHello = () =>{
 //     console.log("Hello Dear,");
 // }
+
+//pr-1
+
+// function countVolwels(str){
+//     let count = 0;
+//     for(const char of str){
+//         if(char === "a" || char === "e" || char === "i" || char === "o" || char === "u"){
+//             count++;
+//         }
+//     }
+//        console.log(count);
+// }
+
+//  pr-2
+
+// let arrowcountVowels = (str)=>{
+//     let count= 0;
+//     for(const char of str){
+//         if(char === "a"|| char === "e" || char === "i" || char === "o" || char==="u"){
+//             count++;
+//         }
+//     }
+//     console.log(count);
+// }
+
