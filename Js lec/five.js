@@ -24,4 +24,22 @@
 // let finalAns = sum(5,5); // here i passess my argument. 
 // console.log(finalAns);
 
-//
+// Arrow Function =>
+
+// sum function
+
+// const arrowSum = (a,b) => {
+//     console.log(a + b);
+// }
+
+// mul function
+
+// const arrowMul = (x,y)=>{
+//     console.log(x * y);
+// }
+
+// printHello
+
+// const printHello = () =>{
+//     console.log("Hello Dear,");
+// }
