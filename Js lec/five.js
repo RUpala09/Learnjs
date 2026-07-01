@@ -70,3 +70,44 @@
 //     console.log(count);
 // }
 
+// forEach Function
+//=> callback function :
+
+    // function str(){ // str is a function
+    //     console.log("Hello");
+    // }
+
+    // function myFun(str){ // str is a passed as an argument.
+    //     return str;
+    // }
+
+    // str();
+
+    // forEach fun:
+
+    // let arr = ["Pune","Mumbai","Ahmedabad","Delhi","Gandhinagar"];
+
+    // arr.forEach(function printCitys(val,idx,arr){ // don't use this ways..
+    //     console.log(val,idx,arr);
+    // });
+
+    // arr.forEach((val)=>{ // this way we write our callbackFunction as an arrow form.
+    //     console.log(val.toUpperCase());
+    // })
+
+    //ex 
+
+    // let arr = [1,2,3,4,5];
+
+    // arr.forEach((val,idx,arr)=>{
+    //     console.log(val,idx,arr); 
+    // });
+
+    // pr1
+
+    // let nums = [25,65,70];
+    // console.log("numbers is : ",nums);
+
+    // nums.forEach((num)=>{
+    //     console.log("square of given numbers is :",num*num);
+    // })
