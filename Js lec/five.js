@@ -111,3 +111,45 @@
     // nums.forEach((num)=>{
     //     console.log("square of given numbers is :",num*num);
     // })
+
+    // map method
+
+    // let nums = [1,2,3,4,5];
+
+    // let newArray = nums.map((val)=>{ // map create new array and not change our old array.
+    //     return val *2;
+    // });
+
+    // console.log(newArray); // new created array.
+    // console.log(nums); // old array without any changes.
+
+    // filter Method
+
+    // let arr = [1,2,3,4,5,6,7,8,9,10];
+
+    // let newArray = arr.filter((val)=>{
+    //     return val % 2 === 0;
+    // });
+    
+    // console.log("Even no's is :",newArray);
+
+    //reduce method  (it's used when we have a lot of input and we want one vlaue in output so we use this reduce method )
+
+    // let arr = [1,2,4,5]; //  in begining 1 is result and 2 is current then 1 +2 =3 so now 3 is stored in resutl and now current is 4 so 3 + 4 = 7 so this 7 is stored in result and now 5 is my curent and 7 + 5 = 12.  
+
+    // const output = arr.reduce((result, currentNum)=>{ // here result or we called as previous too.
+    //     return result + currentNum;
+    // });
+
+    // console.log(output); // 12
+
+    
+    // extra (find largest no.)
+
+    // let arr = [1,2,4,5]; 
+
+    // const output = arr.reduce((previous, currentNum)=>{ 
+    //     return previous > currentNum ? prev : currentNum;
+    // });
+
+    // console.log(output); //5
