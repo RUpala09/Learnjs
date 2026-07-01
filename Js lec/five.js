@@ -144,12 +144,50 @@
     // console.log(output); // 12
 
     
-    // extra (find largest no.)
+    // extra (find largest no.) 
 
     // let arr = [1,2,4,5]; 
 
     // const output = arr.reduce((previous, currentNum)=>{ 
-    //     return previous > currentNum ? prev : currentNum;
+    //     return previous > currentNum ? prev : currentNum; // add < so we got smallest no.
     // });
 
     // console.log(output); //5
+
+    // pr1
+
+    // let marks = [23,69,98,45,93,99,100,41,95];
+    // console.log(marks);
+
+    // let newArray = marks.filter((mark)=>{
+    //     return mark >= 90;
+    // });
+
+    // console.log("90+ marks :",newArray);
+
+    // pr2
+
+    // let num = prompt("Enter a number : ");
+    
+    // let arr = [];
+
+    // for(let i=1; i<=num; i++){
+    //     arr[i-1] = i;
+    // }
+    // console.log(arr);
+
+    // let sum = arr.reduce((prev , currNum)=>{
+    //     return prev + currNum;
+    // });
+
+    // console.log("sum :",sum);
+
+    
+    // let factorial = arr.reduce((prev , currNum)=>{
+    //     return prev * currNum;
+    // });
+
+    // console.log("factorial :",factorial);
+
+    
+    
