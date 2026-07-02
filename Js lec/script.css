@@ -3,3 +3,12 @@ h2{
     background-color: black;
     width: 450px;
 }
+
+body{
+    background-color: pink;
+}
+
+button{
+    background-color: blue;
+    color: white;
+}
