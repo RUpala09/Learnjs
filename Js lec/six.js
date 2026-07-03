@@ -91,7 +91,32 @@
 // let child = document.querySelector("h1").childNodes;
 // console.dir(child); // we get  h1 tag childernode list.
 
-// pr 1
+
+//   pr 1
+
+// let heading = document.querySelector("h2");
+// console.dir(heading);
+// console.dir(heading.innerText = heading.innerText +  " from apna college student");
+
+// pr 2
+
+// let boxclass = document.querySelectorAll(".box");
+
+// first way to do 
+// console.dir(boxclass[0].innerText = "new unique value 1");
+// console.dir(boxclass[1].innerText = "new unique value 2");
+// console.dir(boxclass[2].innerText = "new unique value 3");
+
+// second way using loop
+// let idx = 1;
+
+// for(div of boxclass){
+//     div.innerText = `new unique value ${idx}`;
+//     idx++;
+// }
+
+
+
 
 
 

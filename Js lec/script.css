@@ -1,4 +1,4 @@
-h2{
+/* h2{
     color: white;
     background-color: black;
     width: 450px;
@@ -11,4 +11,13 @@ body{
 button{
     background-color: blue;
     color: white;
+} */
+
+.box{
+    height: 100px;
+    width: 100px;
+    background-color: aquamarine;
+    border: 2px solid black;
+    margin: 5px;
+    text-align: center;
 }
